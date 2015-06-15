@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TreasureHunt KaLi</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menue">MenueActivity</string>
+    <string name="title_activity_treasure_activity1">TreasureActivity1</string>
+    <string name="title_activity_treasure_activity2">TreasureActivity2</string>
+    <string name="title_activity_treasure_activity3">TreasureActivity3</string>
+    <string name="title_activity_treasure_activity4">TreasureActivity4</string>
+    <string name="title_activity_treasure_activity5">TreasureActivity5</string>
+    <string name="title_activity_treasure_activity6">TreasureActivity6</string>
+    <string name="title_activity_treasure_activity7">TreasureActivity7</string>
+    <string name="title_activity_treasure_activity8">TreasureActivity8</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="title_activity_karte">KarteActivity</string>
+</resources>
