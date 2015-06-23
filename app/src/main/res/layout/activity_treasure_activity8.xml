@@ -13,6 +13,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Aus welchem Jahr ist die Tafel auf dem Stein?"
         android:id="@+id/textView8"
+        android:lineSpacingExtra="10dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp" />

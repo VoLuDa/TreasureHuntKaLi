@@ -11,8 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Wie heißt das Einkaufszentrum?"
+        android:text="Wie heisst das Einkaufszentrum?"
         android:id="@+id/textView7"
+        android:lineSpacingExtra="10dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp" />

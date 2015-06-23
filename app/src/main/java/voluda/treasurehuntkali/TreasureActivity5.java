@@ -2,6 +2,8 @@ package voluda.treasurehuntkali;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -10,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class TreasureActivity5 extends ActionBarActivity {
@@ -18,6 +21,12 @@ public class TreasureActivity5 extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_treasure_activity5);
+
+        Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Windlass.ttf");
+        TextView myTextview = (TextView) findViewById(R.id.textView9);
+        myTextview.setTypeface(myTypeface);
+        myTextview.setTextColor(Color.parseColor("#fbda9d"));
+        myTextview.setShadowLayer(8, 0, 0, Color.BLACK);
 
         findViewById(R.id.button26).setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,6 +1,8 @@
 package voluda.treasurehuntkali;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -10,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class TreasureActivity7 extends ActionBarActivity {
@@ -18,6 +21,12 @@ public class TreasureActivity7 extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_treasure_activity7);
+
+        Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Windlass.ttf");
+        TextView myTextview = (TextView) findViewById(R.id.textView4);
+        myTextview.setTypeface(myTypeface);
+        myTextview.setTextColor(Color.parseColor("#fbda9d"));
+        myTextview.setShadowLayer(8, 0, 0, Color.BLACK);
 
         EditText et = (EditText)findViewById(R.id.editText3);
         et.addTextChangedListener(new TextWatcher() {
