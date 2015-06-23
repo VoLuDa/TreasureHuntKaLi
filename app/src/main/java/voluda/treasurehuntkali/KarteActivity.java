@@ -47,7 +47,7 @@ public class KarteActivity extends ActionBarActivity {
         Intent m = getIntent();
         String previousActivity = m.getStringExtra("FROM_ACTIVITY");
 
-        if (previousActivity.equals("A")) {
+        if (previousActivity.equals("Campus")) {
             final LatLng latLng1 = new LatLng(51.500823, 6.545623);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -62,7 +62,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("B")){
+        else if (previousActivity.equals("Kirche")){
             final LatLng latLng1 = new LatLng(51.496124, 6.546466);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -77,7 +77,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("C")){
+        else if (previousActivity.equals("Steinkreis")){
             final LatLng latLng1 = new LatLng(51.501109, 6.544498);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -92,7 +92,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("D")){
+        else if (previousActivity.equals("Freibad")){
             final LatLng latLng1 = new LatLng(51.499528, 6.544158);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -107,7 +107,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("E")){
+        else if (previousActivity.equals("Foerderturm")){
             final LatLng latLng1 = new LatLng(51.499618, 6.538573);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -122,7 +122,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("F")){
+        else if (previousActivity.equals("Einkauf")){
             final LatLng latLng1 = new LatLng(51.500116, 6.551058);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -137,7 +137,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("G")){
+        else if (previousActivity.equals("Skulptur")){
             final LatLng latLng1 = new LatLng(51.503542, 6.547629);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -152,7 +152,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("H")){
+        else if (previousActivity.equals("Tafel")){
             final LatLng latLng1 = new LatLng(51.503781, 6.544566);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {

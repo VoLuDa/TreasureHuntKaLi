@@ -54,7 +54,7 @@ public class TreasureActivity4 extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(TreasureActivity4.this, KarteActivity.class);
-                i.putExtra("FROM_ACTIVITY", "D");
+                i.putExtra("FROM_ACTIVITY", "Freibad");
                 startActivity(i);
             }
         });

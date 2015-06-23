@@ -70,7 +70,7 @@ public class TreasureActivity3 extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(TreasureActivity3.this, KarteActivity.class);
-                i.putExtra("FROM_ACTIVITY", "C");
+                i.putExtra("FROM_ACTIVITY", "Steinkreis");
                 startActivity(i);
             }
         });
