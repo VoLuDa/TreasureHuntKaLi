@@ -27,6 +27,16 @@ public class TreasureActivity2 extends ActionBarActivity {
         myTextview.setTextColor(Color.parseColor("#fbda9d"));
         myTextview.setShadowLayer(8, 0, 0, Color.BLACK);
 
+        Button myButtonText = (Button) findViewById(R.id.button18);
+        myButtonText.setTypeface(myTypeface);
+        myButtonText.setTextColor(Color.parseColor("#fbda9d"));
+        myButtonText.setShadowLayer(8, 0, 0, Color.BLACK);
+
+        Button myButtonText2 = (Button) findViewById(R.id.button22);
+        myButtonText2.setTypeface(myTypeface);
+        myButtonText2.setTextColor(Color.parseColor("#fbda9d"));
+        myButtonText2.setShadowLayer(8, 0, 0, Color.BLACK);
+
         RadioButton eins = (RadioButton)findViewById(R.id.radioButton);
         RadioButton zwei = (RadioButton)findViewById(R.id.radioButton2);
         RadioButton drei = (RadioButton)findViewById(R.id.radioButton3);
