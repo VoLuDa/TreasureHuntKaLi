@@ -62,7 +62,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("Kirche")){
+        else if (previousActivity.equals("Foerderturm")){
             final LatLng latLng1 = new LatLng(51.496124, 6.546466);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -77,7 +77,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("Steinkreis")){
+        else if (previousActivity.equals("Kirche")){
             final LatLng latLng1 = new LatLng(51.501109, 6.544498);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -92,7 +92,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("Freibad")){
+        else if (previousActivity.equals("Steinkreis")){
             final LatLng latLng1 = new LatLng(51.499528, 6.544158);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
@@ -107,7 +107,7 @@ public class KarteActivity extends ActionBarActivity {
 
         }
 
-        else if (previousActivity.equals("Foerderturm")){
+        else if (previousActivity.equals("Freibad")){
             final LatLng latLng1 = new LatLng(51.499618, 6.538573);
 
             mapFragment.getMapAsync(new OnMapReadyCallback() {
