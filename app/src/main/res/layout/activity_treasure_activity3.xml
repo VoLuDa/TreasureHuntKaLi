@@ -27,6 +27,7 @@
         android:layout_marginTop="26dp" />
 
     <Button
+        android:background="@drawable/button_small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Karte"
@@ -37,6 +38,7 @@
         android:layout_alignStart="@+id/textView3" />
 
     <Button
+        android:background="@drawable/button_small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Zurück"
