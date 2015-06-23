@@ -13,6 +13,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Wie viele Gebäude hat der Campus?"
         android:id="@+id/textView2"
+        android:lineSpacingExtra="10dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp" />
