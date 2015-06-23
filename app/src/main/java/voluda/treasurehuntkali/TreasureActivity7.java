@@ -28,6 +28,16 @@ public class TreasureActivity7 extends ActionBarActivity {
         myTextview.setTextColor(Color.parseColor("#fbda9d"));
         myTextview.setShadowLayer(8, 0, 0, Color.BLACK);
 
+        Button myButtonText = (Button) findViewById(R.id.button14);
+        myButtonText.setTypeface(myTypeface);
+        myButtonText.setTextColor(Color.parseColor("#fbda9d"));
+        myButtonText.setShadowLayer(8, 0, 0, Color.BLACK);
+
+        Button myButtonText2 = (Button) findViewById(R.id.button17);
+        myButtonText2.setTypeface(myTypeface);
+        myButtonText2.setTextColor(Color.parseColor("#fbda9d"));
+        myButtonText2.setShadowLayer(8, 0, 0, Color.BLACK);
+
         EditText et = (EditText)findViewById(R.id.editText3);
         et.addTextChangedListener(new TextWatcher() {
             @Override

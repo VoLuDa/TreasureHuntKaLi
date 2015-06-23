@@ -28,6 +28,21 @@ public class TreasureActivity5 extends ActionBarActivity {
         myTextview.setTextColor(Color.parseColor("#fbda9d"));
         myTextview.setShadowLayer(8, 0, 0, Color.BLACK);
 
+        Button myButtonText = (Button) findViewById(R.id.button27);
+        myButtonText.setTypeface(myTypeface);
+        myButtonText.setTextColor(Color.parseColor("#fbda9d"));
+        myButtonText.setShadowLayer(8, 0, 0, Color.BLACK);
+
+        Button myButtonText2 = (Button) findViewById(R.id.button28);
+        myButtonText2.setTypeface(myTypeface);
+        myButtonText2.setTextColor(Color.parseColor("#fbda9d"));
+        myButtonText2.setShadowLayer(8, 0, 0, Color.BLACK);
+
+        Button myButtonText3 = (Button) findViewById(R.id.button26);
+        myButtonText3.setTypeface(myTypeface);
+        myButtonText3.setTextColor(Color.parseColor("#fbda9d"));
+        myButtonText3.setShadowLayer(8, 0, 0, Color.BLACK);
+
         findViewById(R.id.button26).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
