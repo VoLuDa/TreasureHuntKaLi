@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:text="EK1"
             android:id="@+id/radioButton7"
+            android:buttonTint="#fbda9d"
             android:layout_below="@+id/textView7"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp" />
@@ -40,6 +41,7 @@
             android:layout_height="wrap_content"
             android:text="EK2"
             android:id="@+id/radioButton8"
+            android:buttonTint="#fbda9d"
             android:layout_below="@+id/radioButton6"
             android:layout_centerHorizontal="true" />
 
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:text="EK3"
             android:id="@+id/radioButton9"
+            android:buttonTint="#fbda9d"
             android:layout_below="@+id/radioButton7"
             android:layout_alignLeft="@+id/radioButton7"
             android:layout_alignStart="@+id/radioButton7" />

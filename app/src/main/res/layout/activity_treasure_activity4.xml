@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:text="Eichensee"
             android:id="@+id/radioButton4"
+            android:buttonTint="#fbda9d"
             android:layout_below="@+id/textView6"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp" />
@@ -40,6 +41,7 @@
             android:layout_height="wrap_content"
             android:text="Tannensee"
             android:id="@+id/radioButton5"
+            android:buttonTint="#fbda9d"
             android:layout_below="@+id/radioButton4"
             android:layout_centerHorizontal="true" />
 
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:text="Pappelsee"
             android:id="@+id/radioButton6"
+            android:buttonTint="#fbda9d"
             android:layout_below="@+id/radioButton5"
             android:layout_alignLeft="@+id/radioButton5"
             android:layout_alignStart="@+id/radioButton5" />
