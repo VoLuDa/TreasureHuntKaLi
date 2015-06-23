@@ -50,6 +50,10 @@ public class TreasureActivity5 extends ActionBarActivity {
         if (resultCode == RESULT_OK){
             Bitmap photo = (Bitmap) data.getExtras().get("data");
             ((ImageView)findViewById(R.id.imageView)).setImageBitmap(photo);
+
+            Globals g = Globals.getInstance();
+            int point = g.getData();
+            g.setData(point+10);
         }
     }
 
