@@ -54,6 +54,7 @@
     </RadioGroup>
 
     <Button
+        android:background="@drawable/button_small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Karte"
@@ -63,6 +64,7 @@
         android:layout_alignStart="@+id/textView7" />
 
     <Button
+        android:background="@drawable/button_small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Zurück"
