@@ -23,7 +23,7 @@ public class TreasureActivity3 extends ActionBarActivity {
         setContentView(R.layout.activity_treasure_activity3);
 
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Windlass.ttf");
-        TextView myTextview = (TextView) findViewById(R.id.textView2);
+        TextView myTextview = (TextView) findViewById(R.id.textView3);
         myTextview.setTypeface(myTypeface);
         myTextview.setTextColor(Color.parseColor("#fbda9d"));
         myTextview.setShadowLayer(8, 0, 0, Color.BLACK);
