@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="von 80 möglichen Punkten erreicht!"
+        android:text="möglichen Punkten erreicht!"
         android:id="@+id/textView12"
         android:layout_below="@+id/textView11"
         android:layout_alignLeft="@+id/textView11"
@@ -61,5 +61,16 @@
         android:layout_toEndOf="@+id/textView11"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="von 80"
+        android:id="@+id/textView14"
+        android:layout_above="@+id/textView12"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13"
+        android:layout_marginLeft="15dp" />
 
 </RelativeLayout>
