@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Welchen Namen trägt das Freibad?"
+        android:text="Welchen Namen traegt das Freibad?"
         android:id="@+id/textView6"
         android:lineSpacingExtra="10dp"
         android:layout_alignParentTop="true"
