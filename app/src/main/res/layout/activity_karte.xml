@@ -10,7 +10,7 @@
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="750px"
+        android:layout_height="950px"
         android:name="com.google.android.gms.maps.MapFragment"/>
 
     <Button
