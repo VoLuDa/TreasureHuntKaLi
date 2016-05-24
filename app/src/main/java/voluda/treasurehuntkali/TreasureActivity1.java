@@ -1,5 +1,6 @@
 package voluda.treasurehuntkali;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -10,16 +11,18 @@ import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 
-public class TreasureActivity1 extends ActionBarActivity {
+public class TreasureActivity1 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_treasure_activity1);
 
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Windlass.ttf");
