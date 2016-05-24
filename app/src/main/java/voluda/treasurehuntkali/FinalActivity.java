@@ -1,19 +1,22 @@
 package voluda.treasurehuntkali;
 
+import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
 import android.widget.TextView;
 
 
-public class FinalActivity extends ActionBarActivity {
+public class FinalActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_final);
 
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Windlass.ttf");
